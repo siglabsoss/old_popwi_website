@@ -1,0 +1,98 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.goldengate {
+    background-image:url('../img/night.jpg');
+    background-color: #222222;
+    background-size: cover;
+    background-position: right center;
+    color: #ffffff;
+    height: 508px;
+    /* to handle collapsing margins */
+    padding: 1px;
+    margin-bottom: 20px;
+}
+
+.navbar-fixed-top {
+    padding: 0 20px 0 20px;
+}
+
+.navbar-brand {
+    /* defined to logo image size */
+    height: 96px;
+    width: 141px;
+    padding: 10px;
+}
+
+.carousel-inner img {
+    border-radius: 20px;
+    margin-left:20%;
+    margin-top: 50px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.carousel {
+    height: 100%;
+}
+
+body {
+    /* this moves the page down for the fixed navbar */
+    padding-top:96px;
+
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.footer-logo {
+    height: 96px;
+    width: 141px;
+    padding: 10px;
+    margin: auto;
+}
+
+.products-sidebar {
+    float: left;
+    display: block;
+    padding: 1px;
+    margin: 1px;
+}
+
+.map-legend-coverage {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.map-legend-decent-coverage {
+    background-color: #ff8080;
+}
+
+.map-legend-good-coverage {
+    background-color: #ffff80;
+}
+
+.map-legend-great-coverage {
+    background-color: #80ff80;
+}
+
+.products-mainbar {
+    float:left;
+    display: block;
+    padding: 1px;
+    margin: 1px;
+}
+
+#map {
+    height: 480px;
+    margin: 10px;
+}
+
+
+footer {
+    margin-top: 20px;
+}
